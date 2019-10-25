@@ -1,0 +1,25 @@
+#pedra{
+    
+    width: 300px;
+    height: 300px;
+}
+
+#papel{
+    background-image: url(/images/Papel.png);
+    color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+#tesoura{
+    background-image: url(/images/Tesoura.png);
+}
+
+#lizard{
+    background-image: url(/images/lizard.png);
+}
+
+#spock{
+    background-image: url(/images/Spock.png);
+}
+
