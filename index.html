@@ -8,16 +8,27 @@
     <title>Papel ou Tesoura? PEDRA!</title>  
     </head>
         <body>
-            <h1> Jogo- Pedra Papel e Tesoura</h1>
+            <header> Pedra Papel Tesoura(Lizard and Spock) </header>
            <span id="modo">
             <button type="button" id="button-easy">Modo Fácil</button>
             <button type="button" id="button-hard">Modo Dificil</button>
              </span>
-            <span ><img id='papel' alt="mão apontando papel" src='./images/papel.png'></span>
-            <span ><img id='tesoura' alt="mão apontando tesoura" src='./images/Tesoura.png'></span>
-            <span ><img id='pedra' alt="mão apontando pedra" src='./images/Pedra.png'></span>
-            <span ><img id='lizard' alt="mão apontando lizard" src='./images/lizard.png'></span>
-            <span ><img id='spock' alt="mão apontando spock" src='./images/Spock.png'></span>
+                <div class='scoreboard'>
+                    <div id='user-label' class='badge'> User</div>
+                    <div id='comp-label' class='badge'> Comp </div>
+                    <span id='user-score'>0</span>:<span id='comp-score'>0</span>
+
+                 </div>
+                 <div class='result'><p>Resultado</p></div>
+                 <div class='choices'>
+                        <div class='choice' id=papel ><img id='papel' alt="mão apontando papel" src='./images/papel.png'></div>
+                        <div class='choice' id=tesoura><img id='tesoura' alt="mão apontando tesoura" src='./images/Tesoura.png'></div>
+                        <div class='choice' id=pedra><img id='pedra' alt="mão apontando pedra" src='./images/Pedra.png'></div>
+                        <div class='choice' id=lizard><img id='lizard' alt="mão apontando lizard" src='./images/lizard.png'></div>
+                        <div class='choice' id=spock><img id='spock' alt="mão apontando spock" src='./images/Spock.png'></div>
+                 </div>
+            <p id='action-message'>Faça sua açãos</p>
             
         </body>
+        <footer> @pednoronha - github</footer>
 </html>
