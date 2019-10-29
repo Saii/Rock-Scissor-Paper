@@ -87,7 +87,7 @@ function game2(userChoice){
         case "papelpapel":
         case "tesouratesoura":
         case "lizardlizard":
-        case "lizardlizard":
+        case "spockspock":
             empate();
             break;
     }

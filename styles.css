@@ -84,10 +84,16 @@ header{
   }
   .choice{
       display: inline-block;
-      border: 1em solid white;
-      border-radius: 1em;
+      border: 0.2em solid white;
+      border-radius: 10em;
       transition:all 0.3 ease;
       
+      
+  }
+
+  .choice img{
+    height: 5em;
+    width: 5em;
   }
 
   .choice:hover{
