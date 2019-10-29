@@ -104,3 +104,14 @@ header{
   footer{
       margin: 4em;
   }
+
+  #user-score{
+      font-size: 2em;
+      text-align: center;
+      color:  white;
+        }
+    #comp-score{
+            font-size: 2em;
+            text-align: center;
+            color:  white;
+              }
