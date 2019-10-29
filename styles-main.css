@@ -19,3 +19,92 @@
     display: absolute;
     right: 5em;
 }
+
+.navbar-absolute {
+    position: absolute;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    z-index: 3;
+}
+
+.navbar-lg {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar {
+    font-weight: 700;
+}
+
+.button {
+    background-color:#61a8f0
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:hover{
+    background-color: #89bcee; /* Green */
+    color: white;
+  }
+
+  .navbar-absolute {
+    position: absolute;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    z-index: 3;
+}
+
+.navbar-transparant {
+    background: rgba(0,0,0,.65);
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.navbar-lg {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar {
+    font-weight: 700;
+}
+
+.navbar {
+    position: relative;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .125rem;
+    padding-bottom: .125rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+a {
+    color: #343a40;
+    text-decoration: none;
+    background-color: transparent;
+}
+   
+
+    .navbar a:not(.btn) {
+        border-bottom: 0;
+    }
+
+    .navbar-brand:hover {
+        color: #fff;
+    }
