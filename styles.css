@@ -94,3 +94,13 @@ header{
       cursor: pointer;
       background: chocolate;
   }
+
+  #action-message{
+      text-align: center;
+      font-weight: bold;
+      color:white;
+  }
+
+  footer{
+      margin: 4em;
+  }
