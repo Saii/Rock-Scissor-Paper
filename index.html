@@ -1,39 +1,59 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
-<link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" type="text/css" href="styles.css">
+<html>
+	<head>
+		<title>Play the Game</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css">
 
+	</head>
+	<body class="landing">
 
-
-<html>  
-    <head>
-     <meta charset="UTF-8">
-    <title>Papel ou Tesoura? PEDRA!</title>  
-    </head>
-        <body>
-            <header> Pedra Papel Tesoura(Lizard and Spock) </header>
-           <span id="modo">
-            <button type="button" id="button-easy">Modo Fácil</button>
-            <button type="button" id="button-hard">Modo Dificil</button>
-             </span>
-                <div class='scoreboard'>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class='scoreboard'>
                     <div id='user-label' class='badge'> User</div>
                     <div id='comp-label' class='badge'> Comp </div>
                     <span id='user-score'>0</span>:<span id='comp-score'>0</span>
+			</header>
 
-                 </div>
-                 <div class='result'><p>Resultado</p></div>
-                 <div class='choices'>
-                        <div class='choice' id="papel" ><img alt="mão apontando papel" src='./images/papel.png'></div>
-                        <div class='choice' id="tesoura"><img  alt="mão apontando tesoura" src='./images/Tesoura.png'></div>
-                        <div class='choice' id="pedra"><img  alt="mão apontando pedra" src='./images/Pedra.png'></div>
-                        <div class='choice' id="lizard"><img alt="mão apontando lizard" src='./images/lizard.png'></div>
-                        <div class='choice' id="spock"><img  alt="mão apontando spock" src='./images/Spock.png'></div>
-                 </div>
-            <p id='action-message'>Faça sua açãos</p>
-            
-        </body>
-        <footer> @pednoronha - github</footer>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+			<div class='result'><p>Resultado</p></div>
+			<div class='choices'>
+				   <div class='choice' id="papel" ><img alt="mão apontando papel" src='./images/papel.png'></div>
+				   <div class='choice' id="tesoura"><img  alt="mão apontando tesoura" src='./images/Tesoura.png'></div>
+				   <div class='choice' id="pedra"><img  alt="mão apontando pedra" src='./images/Pedra.png'></div>
+				   <div class='choice' id="lizard"><img alt="mão apontando lizard" src='./images/lizard.png'></div>
+				   <div class='choice' id="spock"><img  alt="mão apontando spock" src='./images/Spock.png'></div>
+			</div>
+	   <p id='action-message'>Faça sua açãos</p>
+	   
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-github"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Pedro Noronha</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://google.com">Google</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="function.js"></script>
+
+	</body>
 </html>
-
-<script src="function.js"></script>
